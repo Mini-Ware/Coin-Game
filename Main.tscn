@@ -18,4 +18,3 @@ color = Color(0.513726, 0.513726, 0.513726, 1)
 
 [node name="Coin" parent="." instance=ExtResource("3_wmfos")]
 position = Vector2(318, 227)
-gravity_scale = 0.0
