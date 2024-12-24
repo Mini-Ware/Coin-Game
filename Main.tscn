@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://cq7w53e1mjtvf"]
+
+[ext_resource type="PackedScene" uid="uid://cau66gip2lemp" path="res://Player.tscn" id="1_w15rc"]
+[ext_resource type="PackedScene" uid="uid://fxdphrnrwgxh" path="res://hud.tscn" id="2_vybo5"]
+[ext_resource type="PackedScene" uid="uid://dyn3ilno7v77d" path="res://Coin.tscn" id="3_wmfos"]
+
+[node name="Main" type="Node"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 3.0
+offset_right = 1155.0
+offset_bottom = 648.0
+color = Color(0.513726, 0.513726, 0.513726, 1)
+
+[node name="Player" parent="." instance=ExtResource("1_w15rc")]
+
+[node name="HUD" parent="." instance=ExtResource("2_vybo5")]
+
+[node name="Coin" parent="." instance=ExtResource("3_wmfos")]
+position = Vector2(318, 227)
+gravity_scale = 0.0
