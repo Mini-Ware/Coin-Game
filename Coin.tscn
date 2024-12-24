@@ -17,7 +17,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_3jyyb"]
 radius = 24.3311
 
-[node name="Coin" type="RigidBody2D"]
+[node name="Coin" type="Area2D"]
 position = Vector2(301, 235)
 script = ExtResource("1_ekxh8")
 

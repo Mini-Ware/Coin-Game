@@ -18,7 +18,7 @@ animations = [{
 radius = 31.0
 height = 122.0
 
-[node name="Player" type="Area2D"]
+[node name="Player" type="CharacterBody2D"]
 position = Vector2(602, 337)
 script = ExtResource("1_q5w6i")
 
