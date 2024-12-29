@@ -7,11 +7,4 @@ offset_left = 38.0
 offset_top = 36.0
 offset_right = 78.0
 offset_bottom = 59.0
-text = "Score"
-
-[node name="TimerLabel" type="Label" parent="."]
-offset_left = 38.0
-offset_top = 59.0
-offset_right = 106.0
-offset_bottom = 82.0
-text = "Time left"
+text = "SCORE - 0"
